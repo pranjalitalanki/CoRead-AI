@@ -1,0 +1,33 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Reader & Copilot</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-card">
+    <div class="popup-header">
+      <span>Text Reader & Copilot</span>
+      <button class="close-btn" onclick="window.close()">✕</button>
+    </div>
+    <div class="popup-ads">
+      <img src="https://img.icons8.com/color/96/000000/clapperboard.png" alt="Clapper" class="popup-icon"/>
+    </div>
+    <div class="popup-description">
+      <b>Description</b>
+      <p>
+        Select any text on a webpage and let your AI copilot read it aloud and answer your questions!
+      </p>
+    </div>
+    <button id="readTextButton" class="play-btn">READ</button>
+    <div class="popup-copilot">
+      <p id="contextIndicator" class="context-indicator"></p>
+      <textarea id="questionInput" rows="2" placeholder="Type your question..."></textarea>
+      <button id="askCopilotButton" class="ask-btn">ASK COPILOT</button>
+      <div id="copilotOutput" class="copilot-output"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

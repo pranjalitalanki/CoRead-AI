@@ -1,0 +1,120 @@
+body {
+  background: #888;
+  font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-card {
+  width: 320px;
+  background: linear-gradient(180deg, #f9c2ff 0%, #f9f871 100%);
+  border-radius: 30px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  margin: 18px auto;
+  padding: 20px 16px 16px 16px;
+  position: relative;
+}
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ff5ea2;
+  margin-bottom: 8px;
+}
+
+.close-btn {
+  background: #fff0f5;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+}
+
+.popup-ads {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.popup-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.popup-description {
+  background: #ffe3e3;
+  border-radius: 16px;
+  padding: 12px;
+  margin-bottom: 14px;
+  text-align: center;
+  color: #555;
+}
+
+.play-btn {
+  display: block;
+  margin: 0 auto 16px auto;
+  padding: 12px 0;
+  width: 90%;
+  background: linear-gradient(90deg, #6be6ff 0%, #a685ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 22px;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.popup-copilot {
+  background: #fff8e1;
+  border-radius: 16px;
+  padding: 10px;
+  margin-top: 6px;
+}
+
+.context-indicator {
+  color: #a685ff;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+textarea {
+  width: 95%;
+  border-radius: 8px;
+  border: 1px solid #a685ff;
+  padding: 6px;
+  margin-bottom: 6px;
+  font-size: 1em;
+  resize: none;
+  background: #f9f9ff;
+}
+
+.ask-btn {
+  width: 100%;
+  padding: 9px 0;
+  background: linear-gradient(90deg, #ffb9b9 0%, #ff7eb3 100%);
+  color: #fff;
+  border: none;
+  border-radius: 18px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.copilot-output {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #ffe3e3;
+  min-height: 32px;
+  padding: 6px;
+  color: #444;
+  margin-top: 4px;
+  font-size: 0.98em;
+}
