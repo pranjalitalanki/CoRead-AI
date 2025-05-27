@@ -80,7 +80,7 @@ Then restart Ollama and your browser.
 ## 📫 Contact
 
 Questions, ideas, or feedback?  
-Open an issue or reach out on [LinkedIn](https://www.linkedin.com/in/your-linkedin/).
+Open an issue or reach out on [LinkedIn](https://www.linkedin.com/in/pranjali-talanki).
 
 ---
 
